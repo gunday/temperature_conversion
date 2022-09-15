@@ -1,0 +1,7 @@
+# Code to convert fahrenheit to Celsius degrees.
+
+fahrenheit = float(input('Digite o valor da temperatura em Fahrenheit:\n'))
+
+celsius = 5 * ((fahrenheit-32) / 9)
+
+print('The temperature is {:.0f} celsius degrees.'.format(celsius))
